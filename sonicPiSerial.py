@@ -52,12 +52,12 @@ while True:
                 sender = udp_client.SimpleUDPClient('127.0.0.1', 4560)
                 message = [modeTime, b,  c]
                 print(message)
-                sender.send_message('/trigger/prophet', message)
+                sender.send_message('/trigger/birds', message)
             else: 
-                sender.send_message('/trigger/prophet', message)
+                sender = udp_client.SimpleUDPClient('127.0.0.1', 4560)
                 message = [modeTime, b,  c]
                 print(message)
-                sender.send_message('/trigger/prophet', message)
+                sender.send_message('/trigger/birds', message)
 
         time.sleep(0.01)          
         
