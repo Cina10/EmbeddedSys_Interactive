@@ -1,8 +1,9 @@
  /**********************************************************************
-  Filename    : Joystick
-  Description : Read data from joystick.
-  Auther      : www.freenove.com
-  Modification: 2020/07/11
+  Filename    : Input
+  Description : Takes in input from a Joystick, two buttons and a switch
+  It also controls an LED Module
+  Auther      : Chianna Cohen with base code from www.freenove.com
+  Modification: 2021/05/1
 **********************************************************************/
 #include <Adafruit_NeoPixel.h>
 
