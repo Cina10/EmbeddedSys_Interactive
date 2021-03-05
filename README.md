@@ -43,4 +43,4 @@ You may have to edit the line 15 to match your port and baud rate.
 First install Sonic Pi with the command `sudo apt install ./sonic-pi_3.3.1_1_armhf.deb`
 Then open the file "birdSounds.rb" using in the application. Make sure to edit the file paths to samples to match the absolute file path to you samples on your Rasberry Pi. Then press run!
 
-Finally I plugged the Rasberry Pi into the wall, the ESP32 into the Raspberry Pi, and set up the speakers! Put everything into your enclosure, tape everything in and cross your fingers that it doesn't break!
+Finally I plugged the Rasberry Pi into the wall, the ESP32 into the Raspberry Pi, and set up the speakers connecting via the audio port on the Pi! Put everything into your enclosure, tape everything in, and cross your fingers that it doesn't break!
